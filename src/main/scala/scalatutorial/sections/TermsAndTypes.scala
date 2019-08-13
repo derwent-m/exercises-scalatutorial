@@ -163,7 +163,10 @@ object TermsAndTypes extends ScalaTutorialSection {
    * expressions.
    *
    * Fill the following blank with values whose type is
-   * different from `Int` and see the result:
+   * different from `Int` and see the result. 
+   *
+   * (Note: the `to` operator takes two values of the same type and returns 
+   * an ordered sequence of values between the two input values.)
    */
   def staticTyping(res0: Int): Unit =
     1 to res0
